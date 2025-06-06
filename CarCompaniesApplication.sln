@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCompaniesApplication.DAL", "CarCompaniesApplication.DAL\CarCompaniesApplication.DAL.csproj", "{DB3A3EB1-63C7-4E5E-BE97-24A2C0E723BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{F2FF374E-43E1-442C-9886-CB2E8868D262}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCompaniesApplication.BLL", "CarCompaniesApplication.BLL\CarCompaniesApplication.BLL.csproj", "{23402CF2-16C7-49D4-8352-AA0B8E328986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCompaniesApplication.API", "CarCompaniesApplication.API\CarCompaniesApplication.API.csproj", "{E4A96543-F982-4965-90C5-3D61819B5727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB3A3EB1-63C7-4E5E-BE97-24A2C0E723BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3A3EB1-63C7-4E5E-BE97-24A2C0E723BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3A3EB1-63C7-4E5E-BE97-24A2C0E723BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3A3EB1-63C7-4E5E-BE97-24A2C0E723BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23402CF2-16C7-49D4-8352-AA0B8E328986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23402CF2-16C7-49D4-8352-AA0B8E328986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23402CF2-16C7-49D4-8352-AA0B8E328986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23402CF2-16C7-49D4-8352-AA0B8E328986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A96543-F982-4965-90C5-3D61819B5727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A96543-F982-4965-90C5-3D61819B5727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A96543-F982-4965-90C5-3D61819B5727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A96543-F982-4965-90C5-3D61819B5727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C6FF792-FD4F-4E31-9D6B-98811986A5B3}
+	EndGlobalSection
+EndGlobal
